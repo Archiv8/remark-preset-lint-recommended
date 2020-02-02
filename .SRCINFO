@@ -1,0 +1,28 @@
+pkgbase = nodejs-remark-preset-lint-recommended
+	pkgdesc = remark lint plugin with settings that help prevent mistakes and highlights syntaxes that do not work correctly across vendors.
+	pkgver = 3.0.3
+	pkgrel = 1
+	url = https://github.com/remarkjs/remark-lint/tree/master/packages/remark-preset-lint-recommended
+	changelog = CHANGELOG.md
+	arch = any
+	license = MIT
+	makedepends = jq
+	makedepends = npm
+	depends = nodejs
+	source = https://registry.npmjs.org/remark-preset-lint-recommended/-/remark-preset-lint-recommended-3.0.3.tgz
+	source = CC-by-SA-v4.md
+	source = CHANGELOG.md
+	source = ISSUES.md
+	source = LICENSE
+	source = LICENSE.md
+	source = README.md
+	sha256sums = 7c43a4ed3efc40b8ddc43930f83eba4e0392fb26df2e8ec2f8fff454a229e5ee
+	sha256sums = c492f31eb0daf519a3c8ab2db7899806de693608f3894d9c82ee5f0a079b603f
+	sha256sums = 37fecd09f29ad9d1aaa81e3e7aac939e33ce9b044a00e3eb3ab95b6a8cce5f70
+	sha256sums = a8f44e8684e920ea4becde607f6a8315083e75fb23fd3632c4c819aa73e36340
+	sha256sums = ed52f87c3904a045931ff47fef50c31840b2f80f3618ce7a9d188918a9f83357
+	sha256sums = 99e8d4a1e54d7245fc77bd46a88226c6b52d0dd45cdbe32f9a33434c6f3c0a82
+	sha256sums = 20cd8f66f7874e89be5c7d7aa7082cd3c3421ec10ecea68ac48064e07759279a
+
+pkgname = nodejs-remark-preset-lint-recommended
+
