@@ -31,17 +31,19 @@ source=(
 "ISSUES.md"
 "LICENSE"
 "LICENSE.md"
+"MIT.md"
 "README.md"
 )
 # noextract=()
 # validpgpkeys=()
 sha256sums=('7c43a4ed3efc40b8ddc43930f83eba4e0392fb26df2e8ec2f8fff454a229e5ee'
-            'c492f31eb0daf519a3c8ab2db7899806de693608f3894d9c82ee5f0a079b603f'
-            'ad101c0f9b5f46f6f1e98e95ef55cbb37d6011bbbb24b62400a097396809588a'
-            'a8f44e8684e920ea4becde607f6a8315083e75fb23fd3632c4c819aa73e36340'
+            '2eb478e66440f36b2533e9b2b26d192f4d5ccbe1e266b8dba0011571649c9040'
+            '7227eca51fab2ed7a48cfb36241843543b09f2b7db809f64415ddae663897b3e'
+            '1bd4b7dbabb6f09156d492d2db061dbaab4389985b60f4c3b56938b9bc0fbb92'
             'ed52f87c3904a045931ff47fef50c31840b2f80f3618ce7a9d188918a9f83357'
-            '99e8d4a1e54d7245fc77bd46a88226c6b52d0dd45cdbe32f9a33434c6f3c0a82'
-            '20cd8f66f7874e89be5c7d7aa7082cd3c3421ec10ecea68ac48064e07759279a')
+            'bce77135821f026322a689bb1e0a1d40839b717df8312576094e560e2c4779a7'
+            '4b8044f0fa84503f91ea69cde8c374404677a019d63a7731d1001635c526e1b7'
+            '6fd443dd301f83e072d3a678328fb905f51412b7f53651cbf68c3dd016eab760')
 
 # prepare () {}
 
@@ -85,9 +87,10 @@ package() {
   install -dvm 755 "$pkgdir/usr/share/doc/$pkgname/packaging/"
 
   # Install Archiv8 Documentation
-  install -Dm 644 "CC-by-SA-v4.md" "$pkgdir/usr/share/doc/$pkgname/packaging/CC-by-SA-v4.md"
+  install -Dm 644 "CC-by-SA-v4.md" "$pkgdir/usr/share/licenses/$pkgname/packaging/CC-by-SA-v4.md"
   install -Dm 644 "CHANGELOG.md" "$pkgdir/usr/share/doc/$pkgname/packaging/CHANGELOG.md"
   install -Dm 644 "ISSUES.md" "$pkgdir/usr/share/doc/$pkgname/packaging/ISSUES.md"
-  install -Dm 644 "LICENSE.md" "$pkgdir/usr/share/doc/$pkgname/packaging/LICENSE.md"
+  install -Dm 644 "LICENSE.md" "$pkgdir/usr/share/licenses/$pkgname/packaging/LICENSE.md"
+  install -Dm 644 "MIT.md" "$pkgdir/usr/share/licenses/$pkgname/packaging/MIT.md"
   install -Dm 644 "README.md" "$pkgdir/usr/share/doc/$pkgname/packaging/README.md"
   }
