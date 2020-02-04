@@ -4,9 +4,7 @@ _Exploring and Sharing Custom [Arch Linux](https://www.archlinux.org/) PKGBUILDs
 
 ---
 
-# Arch Linux package for [remark-preset-lint-recommended](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-preset-lint-recommended)
-
-**_This repository contains unofficial packaging for an installation of a [cor Remark Lint plugin](https://github.com/remarkjs/remark-lint/packages) on [Arch Linux](https://www.archlinux.org/).  It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the Remark Lint project._**
+**_Arch Linux package for [remark-preset-lint-recommended](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-preset-lint-recommended).  It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the Remark Lint project._**
 
 ---
 
@@ -39,11 +37,11 @@ Should you discover an issue please:
 
   <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Documentation for this project is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-  Any original software produced for [Archiv8](https://archiv8.github.io/) and quoted within the documentation is released under the MIT License.
+  Any original software produced for [Archiv8](https://archiv8.github.io/) and / or quoted within the documentation is released under the MIT License.
 
-  The license for upstream software remains as designated by its creator and contributors.
+  The license for upstream software, including the Arch Linux packaging tools used in the creation of this package, remains as designated by its creator and contributors.
 
-  (c) Documentation, 2017 - 2020 Ross Clark and [Archiv8 Contributors](https://github.com/Archiv8/nodejs-remark-lint-list-item-indent/people)
+  (c) Documentation and Code, 2017 - 2020 Ross Clark and [Archiv8 Contributors](https://github.com/Archiv8/nodejs-remark-preset-lint-recommended/people)
 
   ---
 
