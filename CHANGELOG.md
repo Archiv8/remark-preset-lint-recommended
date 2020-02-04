@@ -16,8 +16,24 @@ All notable changes to the project are documented in this file using rules based
 
 | Commit  | Date       | Title / Overview                                      |
 | ------- | ---------- | ----------------------------------------------------- |
-|  latest | 2020-02-02 | :id: SHA: Regenerate mismatched sums                  |
-|  latest | 2020-02-02 | :date: LOG: Add items to changelog                 |
+|         |            |                                                       |
+
+## [1.1.0] - 2020-02-04
+
+### This release addresses
+
+- Initialization of repository
+
+### This release includes
+
+| Commit  | Date       | Title / Overview                                      |
+| ------- | ---------- | ----------------------------------------------------- |
+|  latest | 2020-02-04 | :id: SHA: Regenerate mismatched sums                  |
+|  latest | 2020-02-04 | :date: LOG: Add items to changelog                    |
+| 3aebde3 | 2020-02-04 | :cop: DOC(copy): Update license and copyright         |
+| 0e3e350 | 2020-02-04 | :cop: DOC(copy): Update copyright and header info     |
+| a029385 | 2020-02-02 | :id: SECURE: Regenerate sums for changed files        |
+| e7dd13e | 2020-02-02 | :date: LOG: Add items to changelog                    |
 | 4613e07 | 2020-02-02 | :pencil: DOC(spell): Update spellings list            |
 
 ## [1.0.0] - 2020-02-02
