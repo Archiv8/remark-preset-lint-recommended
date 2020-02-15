@@ -4,7 +4,7 @@ _Exploring and Sharing Custom [Arch Linux](https://www.archlinux.org/) PKGBUILDs
 
 ---
 
-**_This repository contains unofficial packaging for an installation of a [cor remark-lint plugin](https://github.com/remarkjs/remark-lint/packages) on [Arch Linux](https://www.archlinux.org/).  It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the remark-lint project._**
+**_This repository contains unofficial packaging for an installation of a [cor remark-lint plugin](https://github.com/remarkjs/remark-lint/packages).  It is not affiliated, authorized, endorsed by, or in other way connected with either Arch Linux or the remark-lint project._**
 
 ---
 
