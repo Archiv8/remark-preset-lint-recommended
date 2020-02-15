@@ -1,5 +1,5 @@
-# Maintainer: Ross Clark <https://github.com/Archiv8/nodejs-remark-preset-lint-recommended/issues>
-# Contributor: Ross Clark <https://github.com/Archiv8/nodejs-remark-preset-lint-recommended/issues>
+# Maintainer: Archiv8 <archiv8@artisteducator.com>
+# Contributor: Archiv8 <archiv8@artisteducator.com>
 
 _relname="remark-preset-lint-recommended"
 
@@ -34,9 +34,9 @@ source=(
 "MIT.md"
 "README.md"
 )
-# noextract=()
+noextract=("$_relname-$pkgver.tgz")
 # validpgpkeys=()
-sha256sums=('7c43a4ed3efc40b8ddc43930f83eba4e0392fb26df2e8ec2f8fff454a229e5ee'
+sha512sums=('7c43a4ed3efc40b8ddc43930f83eba4e0392fb26df2e8ec2f8fff454a229e5ee'
             '2eb478e66440f36b2533e9b2b26d192f4d5ccbe1e266b8dba0011571649c9040'
             '7227eca51fab2ed7a48cfb36241843543b09f2b7db809f64415ddae663897b3e'
             '1bd4b7dbabb6f09156d492d2db061dbaab4389985b60f4c3b56938b9bc0fbb92'
