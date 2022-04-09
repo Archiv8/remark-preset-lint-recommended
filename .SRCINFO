@@ -1,13 +1,14 @@
 pkgbase = remark-preset-lint-recommended
 	pkgdesc = A remark lint preset to enforce consistency.
 	pkgver = 6.1.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/remarkjs/remark-lint/tree/master/packages/remark-preset-lint-consistent
 	arch = any
 	license = MIT
 	makedepends = jq
 	makedepends = npm
 	depends = nodejs
+	depends = remark-lint
 	noextract = remark-preset-lint-recommended-6.1.2.tgz
 	source = https://registry.npmjs.org/remark-preset-lint-recommended/-/remark-preset-lint-recommended-6.1.2.tgz
 	sha512sums = c7d916b9f358f0f340858e1fb25f8a0f76ad810768e2298fdc60c04186d0eb29565725f5decb8f44b92a9eea56d0e0d1ca77d483c651b7ca555f4c0c1f080f02
